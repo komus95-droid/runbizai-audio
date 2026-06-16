@@ -33,14 +33,11 @@
     "appId": "com.runbizai.audio",
     "productName": "RunBizAI",
     "win": {
-      "target": "nsis",
-      "icon": "assets/icon.ico"
+      "target": "nsis"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "assets/icon.ico",
-      "uninstallerIcon": "assets/icon.ico",
       "language": "1049"
     },
     "files": [
